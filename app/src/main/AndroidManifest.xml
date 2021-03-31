@@ -9,8 +9,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.SampleConstraintLayout0">
-        <activity android:name=".DaftarActivity"
-            android:parentActivityName=".MainActivity"></activity>
+        <activity android:name=".ActivityLihatData"
+            android:parentActivityName=".Home_Activity"></activity>
+        <activity android:name=".Home_Activity"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".DaftarActivity"
+            android:parentActivityName=".MainActivity" />
         <activity
             android:name=".ActivityHasil"
             android:label="@string/label2"
@@ -18,6 +23,7 @@
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>

@@ -21,6 +21,14 @@ public class DaftarActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_daftar);
+
+        fab=findViewById(R.id.fabSimpan);
+        edtNama=findViewById(R.id.edNama);
+        edtAlamat=findViewById(R.id.edAlamat);
+        edtEmail=findViewById(R.id.EdEmail);
+        edtPassword=findViewById(R.id.edPassword);
+        edtrepass=findViewById(R.id.edrepas);
+
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view){
